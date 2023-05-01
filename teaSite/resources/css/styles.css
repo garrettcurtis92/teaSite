@@ -1,0 +1,110 @@
+body {
+  background-color: black;
+  color: seashell;
+  font-family: Helvetica, sans-serif;
+  font-size: 22px;
+  text-align: center;
+}
+/* Fixed Header Styles */
+header {
+  justify-content: space-between;
+  display: flex;
+  height: 69px;
+}
+ul > li {
+  display: inline;
+  padding: 10px;
+}
+a {
+  color: seashell;
+}
+a:hover {
+  color: grey;
+}
+.logo {
+  padding-left: 10px;
+  height: 50px;
+  width: auto;
+}
+
+/* Mission Statement Styles */
+
+.mission-background {
+  background-image: url("/resources/images/img-mission-background.jpg");
+  height: 700px;
+  width: auto;
+  background-repeat: no-repeat;
+  margin-left: 20px;
+  margin-right: 20px;
+
+  border-bottom: 1px solid seashell;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-size: cover;
+}
+
+.mission-text {
+  background-color: black;
+  width: 100%;
+  padding: 0;
+}
+
+/* Tea Of the month Styles */
+
+.tea-selection div {
+  display: inline-block;
+  text-align: center;
+  margin: 12px;
+}
+.tea-selection img {
+  height: 200px;
+  width: 300px;
+}
+
+.tea-selection p {
+  margin-top: 10px;
+  font-size: 22px;
+}
+
+/* locations styles */
+
+.location {
+  background-image: url("/resources/images/img-locations-background.jpg");
+  height: 500px;
+  width: auto;
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin-left: 20px;
+  margin-right: 20px;
+  text-align: center;
+}
+
+.location-box {
+  background-color: black;
+  margin: 40px;
+  width: 300px;
+  height: auto;
+  opacity: 1;
+  padding: 2px;
+  display: inline-block;
+  vertical-align: middle;
+}
+
+.location-box p {
+  padding: 5px;
+}
+
+#location-text {
+  margin-top: 20px;
+  display: block;
+  text-align: center;
+  margin-bottom: 15px;
+  padding: 5px;
+}
+/* copyright styles */
+
+#copyright {
+  text-align: left;
+  margin-left: 20px;
+}
